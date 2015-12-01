@@ -13,6 +13,8 @@
 		1ABE37DB1C0DE8FD00641C33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1ABE37DA1C0DE8FD00641C33 /* Assets.xcassets */; };
 		1ABE37E61C0DE8FE00641C33 /* QuartzCodeTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABE37E51C0DE8FE00641C33 /* QuartzCodeTestTests.swift */; };
 		1ABE37F11C0DE8FE00641C33 /* QuartzCodeTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABE37F01C0DE8FE00641C33 /* QuartzCodeTestUITests.swift */; };
+		1ABE37FF1C0DE91500641C33 /* QCMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABE37FE1C0DE91500641C33 /* QCMethod.swift */; };
+		1ABE38011C0DE92400641C33 /* SongStart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABE38001C0DE92400641C33 /* SongStart.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		1ABE37EC1C0DE8FE00641C33 /* QuartzCodeTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuartzCodeTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1ABE37F01C0DE8FE00641C33 /* QuartzCodeTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuartzCodeTestUITests.swift; sourceTree = "<group>"; };
 		1ABE37F21C0DE8FE00641C33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1ABE37FE1C0DE91500641C33 /* QCMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QCMethod.swift; sourceTree = "<group>"; };
+		1ABE38001C0DE92400641C33 /* SongStart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongStart.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 				1ABE37D71C0DE8FD00641C33 /* Main.storyboard */,
 				1ABE37DA1C0DE8FD00641C33 /* Assets.xcassets */,
 				1ABE37DC1C0DE8FD00641C33 /* Info.plist */,
+				1ABE37FE1C0DE91500641C33 /* QCMethod.swift */,
+				1ABE38001C0DE92400641C33 /* SongStart.swift */,
 			);
 			path = QuartzCodeTest;
 			sourceTree = "<group>";
@@ -254,6 +260,8 @@
 			files = (
 				1ABE37D61C0DE8FD00641C33 /* ViewController.swift in Sources */,
 				1ABE37D41C0DE8FD00641C33 /* AppDelegate.swift in Sources */,
+				1ABE37FF1C0DE91500641C33 /* QCMethod.swift in Sources */,
+				1ABE38011C0DE92400641C33 /* SongStart.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

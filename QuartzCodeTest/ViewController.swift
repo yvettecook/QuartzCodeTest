@@ -10,16 +10,18 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var songStart: SongStart!
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    @IBAction func animate(sender: AnyObject) {
+        songStart.addSongStartAnimationCompletionBlock { (finished) -> Void in
+            print("Animation finished")
+        }
     }
-
+    
 
 }
 
