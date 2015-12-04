@@ -10,18 +10,18 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    @IBOutlet weak var songStart: SongStart!
+    @IBOutlet weak var voteTrackInfoView: VoteTrackInfoView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
     }
 
     @IBAction func animate(sender: AnyObject) {
-        songStart.addSongStartAnimationCompletionBlock { (finished) -> Void in
+        voteTrackInfoView.addVoteAAnimationCompletionBlock { (finished) -> Void in
             print("Animation finished")
         }
+        
     }
-    
 
 }
 

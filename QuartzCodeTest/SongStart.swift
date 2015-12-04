@@ -1,21 +1,21 @@
 //
-//  SongStart.swift
+//  SongEnd.swift
 //
-//  Code generated using QuartzCode 1.38.4 on 19/11/2015.
+//  Code generated using QuartzCode 1.38.4 on 01/12/2015.
 //  www.quartzcodeapp.com
 //
 
 import UIKit
 
 @IBDesignable
-class SongStart: UIView {
+class SongEnd: UIView {
     
     var layers : Dictionary<String, AnyObject> = [:]
     var completionBlocks : Dictionary<CAAnimation, (Bool) -> Void> = [:]
     var updateLayerValueForCompletedAnimation : Bool = false
     
     var White : UIColor!
-    var lightGrey : UIColor!
+    var lightBlue : UIColor!
     
     //MARK: - Life Cycle
     
@@ -36,22 +36,19 @@ class SongStart: UIView {
     
     func setupProperties(){
         self.White = UIColor.whiteColor()
-        self.lightGrey = UIColor(red:0.694, green: 0.718, blue:0.808, alpha:1)
+        self.lightBlue = UIColor(red:0.702, green: 0.855, blue:0.929, alpha:1)
     }
     
     func setupLayers(){
-        let background = CALayer()
-        background.frame = CGRectMake(0, -8.62, 1920, 1088.62)
-        self.layer.addSublayer(background)
-        layers["background"] = background
+        self.backgroundColor = UIColor(red:0.365, green: 0.643, blue:0.824, alpha:1)
         
         let Song = CATextLayer()
-        Song.frame = CGRectMake(93.28, 834.19, 1230.26, 99.57)
+        Song.frame = CGRectMake(100.28, -11.81, 1230.26, 99.57)
         self.layer.addSublayer(Song)
         layers["Song"] = Song
         
         let Artist = CATextLayer()
-        Artist.frame = CGRectMake(93.28, 934.76, 1230.26, 82.44)
+        Artist.frame = CGRectMake(100, 88.76, 1230.26, 82.44)
         self.layer.addSublayer(Artist)
         layers["Artist"] = Artist
         
@@ -62,12 +59,9 @@ class SongStart: UIView {
         CATransaction.begin()
         CATransaction.setDisableActions(true)
         
-        if layerIds == nil || layerIds.contains("background"){
-            let background = layers["background"] as! CALayer
-            background.contents = UIImage(named:"background-02")?.CGImage
-        }
         if layerIds == nil || layerIds.contains("Song"){
             let Song = layers["Song"] as! CATextLayer
+            Song.anchorPoint   = CGPointMake(0, 0)
             Song.alignmentMode = kCAAlignmentLeft;
             Song.contentsScale = UIScreen.mainScreen().scale
             var SongAttributes = [NSFontAttributeName: UIFont(name:"AvenirNext-Bold", size:73)!,
@@ -79,10 +73,11 @@ class SongStart: UIView {
         }
         if layerIds == nil || layerIds.contains("Artist"){
             let Artist = layers["Artist"] as! CATextLayer
+            Artist.anchorPoint   = CGPointMake(0, 0)
             Artist.alignmentMode = kCAAlignmentLeft;
             Artist.contentsScale = UIScreen.mainScreen().scale
             var ArtistAttributes = [NSFontAttributeName: UIFont(name:"AvenirNext-Regular", size:47)!,
-                NSForegroundColorAttributeName: UIColor(red:0.694, green: 0.718, blue:0.808, alpha:1),
+                NSForegroundColorAttributeName: UIColor(red:0.702, green: 0.855, blue:0.929, alpha:1),
                 NSKernAttributeName: 1]
             var ArtistText       = "Artist Name"
             var ArtistAttributedText = NSAttributedString(string: ArtistText, attributes: ArtistAttributes)
@@ -115,9 +110,9 @@ class SongStart: UIView {
         
         ////Song animation
         let SongPositionAnim            = CAKeyframeAnimation(keyPath:"position")
-        SongPositionAnim.values         = [NSValue(CGPoint: CGPointMake(708.41, 1196.771)), NSValue(CGPoint: CGPointMake(708.41, 883.975))]
+        SongPositionAnim.values         = [NSValue(CGPoint: CGPointMake(100, 350.771)), NSValue(CGPoint: CGPointMake(100, -0.574))]
         SongPositionAnim.keyTimes       = [0, 1]
-        SongPositionAnim.duration       = 0.521
+        SongPositionAnim.duration       = 0.491
         SongPositionAnim.timingFunction = CAMediaTimingFunction(name:kCAMediaTimingFunctionEaseOut)
         
         let SongOpacityAnim      = CAKeyframeAnimation(keyPath:"opacity")
@@ -159,10 +154,11 @@ class SongStart: UIView {
         let fillMode : String = kCAFillModeForwards
         
         ////Song animation
-        let SongOpacityAnim      = CAKeyframeAnimation(keyPath:"opacity")
-        SongOpacityAnim.values   = [1, 0]
-        SongOpacityAnim.keyTimes = [0, 1]
-        SongOpacityAnim.duration = 0.5
+        let SongOpacityAnim            = CAKeyframeAnimation(keyPath:"opacity")
+        SongOpacityAnim.values         = [1, 0]
+        SongOpacityAnim.keyTimes       = [0, 1]
+        SongOpacityAnim.duration       = 0.5
+        SongOpacityAnim.timingFunction = CAMediaTimingFunction(name:kCAMediaTimingFunctionEaseOut)
         
         let SongSongFinishAnim : CAAnimationGroup = QCMethod.groupAnimations([SongOpacityAnim], fillMode:fillMode)
         layers["Song"]?.addAnimation(SongSongFinishAnim, forKey:"SongSongFinishAnim")

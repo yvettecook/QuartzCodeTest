@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "667E09F40048657762DAE970DC37DCAD6C9348B9",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "2786CA42F67B60D2D442E120202137552FC7F0FB" : 0,
+    "667E09F40048657762DAE970DC37DCAD6C9348B9" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "360CCE61-7E4C-458D-8616-25E391B8BC8D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "2786CA42F67B60D2D442E120202137552FC7F0FB" : "..\/Contracting\/FanVox\/JukeBox",
+    "667E09F40048657762DAE970DC37DCAD6C9348B9" : "QuartzCodeTest\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "QuartzCodeTest",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "QuartzCodeTest.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:FanVoxMedia\/JukeBox.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2786CA42F67B60D2D442E120202137552FC7F0FB"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:yvettecook\/QuartzCodeTest.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "667E09F40048657762DAE970DC37DCAD6C9348B9"
+    }
+  ]
+}

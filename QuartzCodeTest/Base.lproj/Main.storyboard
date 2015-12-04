@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder.AppleTV.Storyboard" version="3.0" toolsVersion="9060" systemVersion="15C47a" targetRuntime="AppleTV" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder.AppleTV.Storyboard" version="3.0" toolsVersion="9060" systemVersion="15C48a" targetRuntime="AppleTV" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
@@ -17,8 +17,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="1920" height="1080"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aXt-aE-oA2" customClass="SongStart" customModule="QuartzCodeTest" customModuleProvider="target">
-                                <rect key="frame" x="120" y="100" width="1680" height="280"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aXt-aE-oA2" customClass="VoteTrackInfoView" customModule="QuartzCodeTest" customModuleProvider="target">
+                                <rect key="frame" x="20" y="0.0" width="1880" height="930"/>
                                 <animations/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
@@ -35,16 +35,16 @@
                         <animations/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="aXt-aE-oA2" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="100" id="6Ye-2X-lsM"/>
+                            <constraint firstItem="aXt-aE-oA2" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="6Ye-2X-lsM"/>
                             <constraint firstItem="Lk3-09-Mqo" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="8yU-cF-Qks"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Lk3-09-Mqo" secondAttribute="bottom" constant="50" id="DG6-yl-wLT"/>
-                            <constraint firstItem="aXt-aE-oA2" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="100" id="I1B-Nl-4bx"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="aXt-aE-oA2" secondAttribute="trailing" constant="100" id="fbs-jk-ce8"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="aXt-aE-oA2" secondAttribute="bottom" constant="700" id="rVa-UF-PJx"/>
+                            <constraint firstItem="aXt-aE-oA2" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="I1B-Nl-4bx"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="aXt-aE-oA2" secondAttribute="trailing" id="fbs-jk-ce8"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="aXt-aE-oA2" secondAttribute="bottom" constant="150" id="rVa-UF-PJx"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="songStart" destination="aXt-aE-oA2" id="2o4-Yl-T0w"/>
+                        <outlet property="voteTrackInfoView" destination="aXt-aE-oA2" id="Dn5-A6-ri8"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
