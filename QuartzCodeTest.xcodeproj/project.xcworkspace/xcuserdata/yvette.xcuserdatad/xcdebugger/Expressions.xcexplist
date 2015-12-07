@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "VoteMeter.setupLayers() -&gt; ():VoteMeter.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.superview">
+            </PersistentString>
+            <PersistentString
+               value = "self.layer.sublayers">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "VoteTrackInfoView.init(coder : NSCoder) -&gt; VoteTrackInfoView?:VoteTrackInfoView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.frame">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

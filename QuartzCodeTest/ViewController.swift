@@ -1,4 +1,4 @@
-//
+
 //  ViewController.swift
 //  QuartzCodeTest
 //
@@ -10,14 +10,14 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    @IBOutlet weak var voteTrackInfoView: VoteTrackInfoView!
+    @IBOutlet weak var voteMeter: VoteMeter!
 
     override func viewDidLoad() {
         super.viewDidLoad()
     }
 
     @IBAction func animate(sender: AnyObject) {
-        voteTrackInfoView.addVoteAAnimationCompletionBlock { (finished) -> Void in
+        voteMeter.addMainAnimationCompletionBlock { (finished) -> Void in
             print("Animation finished")
         }
         

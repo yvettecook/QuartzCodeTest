@@ -17,10 +17,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="1920" height="1080"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aXt-aE-oA2" customClass="VoteTrackInfoView" customModule="QuartzCodeTest" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aXt-aE-oA2" customClass="VoteMeter" customModule="QuartzCodeTest">
                                 <rect key="frame" x="20" y="0.0" width="1880" height="930"/>
                                 <animations/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" red="0.84313725490000002" green="0.41783766779999998" blue="0.90588235289999997" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lk3-09-Mqo">
                                 <rect key="frame" x="863" y="944" width="195" height="86"/>
@@ -44,7 +44,7 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="voteTrackInfoView" destination="aXt-aE-oA2" id="Dn5-A6-ri8"/>
+                        <outlet property="voteMeter" destination="aXt-aE-oA2" id="vJQ-hP-B8i"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

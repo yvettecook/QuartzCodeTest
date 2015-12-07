@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1A53BBB41C11AACB003151AC /* VoteTrackInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A53BBB31C11AACB003151AC /* VoteTrackInfoView.swift */; };
+		1A5ACF0B1C15E8E000743D8A /* VoteMeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5ACF0A1C15E8E000743D8A /* VoteMeter.swift */; };
 		1ABE37D41C0DE8FD00641C33 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABE37D31C0DE8FD00641C33 /* AppDelegate.swift */; };
 		1ABE37D61C0DE8FD00641C33 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABE37D51C0DE8FD00641C33 /* ViewController.swift */; };
 		1ABE37D91C0DE8FD00641C33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1ABE37D71C0DE8FD00641C33 /* Main.storyboard */; };
@@ -35,7 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1A53BBB31C11AACB003151AC /* VoteTrackInfoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VoteTrackInfoView.swift; path = ../../../Contracting/FanVox/JukeBox/JukeBox/VoteTrackInfoView.swift; sourceTree = "<group>"; };
+		1A5ACF0A1C15E8E000743D8A /* VoteMeter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoteMeter.swift; sourceTree = "<group>"; };
 		1ABE37D01C0DE8FD00641C33 /* QuartzCodeTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuartzCodeTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1ABE37D31C0DE8FD00641C33 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1ABE37D51C0DE8FD00641C33 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -105,7 +105,7 @@
 				1ABE37DA1C0DE8FD00641C33 /* Assets.xcassets */,
 				1ABE37DC1C0DE8FD00641C33 /* Info.plist */,
 				1ABE37FE1C0DE91500641C33 /* QCMethod.swift */,
-				1A53BBB31C11AACB003151AC /* VoteTrackInfoView.swift */,
+				1A5ACF0A1C15E8E000743D8A /* VoteMeter.swift */,
 			);
 			path = QuartzCodeTest;
 			sourceTree = "<group>";
@@ -258,8 +258,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A53BBB41C11AACB003151AC /* VoteTrackInfoView.swift in Sources */,
 				1ABE37D61C0DE8FD00641C33 /* ViewController.swift in Sources */,
+				1A5ACF0B1C15E8E000743D8A /* VoteMeter.swift in Sources */,
 				1ABE37D41C0DE8FD00641C33 /* AppDelegate.swift in Sources */,
 				1ABE37FF1C0DE91500641C33 /* QCMethod.swift in Sources */,
 			);
